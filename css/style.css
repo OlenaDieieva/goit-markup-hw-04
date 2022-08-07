@@ -90,14 +90,13 @@ header.container {
 
 
 
+
+
 .link-current-hand {
     display: flex;
     align-items: flex-start;
     gap: 51px;
 }
-
-
-
 
 .logo {
     margin-right: 93px;
@@ -128,9 +127,6 @@ header.container {
 }
 
 .link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
     outline: 1px, solid, var(--accent-color);
     font-weight: 500;
     font-size: 14px;
@@ -187,7 +183,6 @@ header.container {
 
 }
 
-
 /*--------------------------------ГЕРОЙ ------------------------- */
 
 .hero {
@@ -195,7 +190,6 @@ header.container {
     padding-top: 200px;
     padding-bottom: 200px;
 }
-
 
 /* ---Overlay---*/
 
@@ -348,15 +342,19 @@ section {
     gap: 30px;
 }
 
-.features-logo {
-    display: block;
+.features-logo {}
+
+.features-icon {
+    display: flex;
     align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
     background: #F5F4FA;
     border-radius: 4px;
     background-position: center;
+    margin-bottom: 30px;
 }
 
 .features-title {
@@ -546,13 +544,14 @@ section {
     height: 44px;
     border-radius: 50%;
     background-color: var(--accent-color);
+    fill: #AFB1B8;
 }
 
-
-
-
-
-
+.social-net.link {
+    background-color: var(--white);
+    fill: #AFB1B8;
+    ;
+}
 
 .social-net.link:hover .net .social-net.link:focus .net {
     background-color: var(--accent-color);
@@ -560,7 +559,8 @@ section {
 }
 
 .net {
-    color: currentColor;
+    background-color: var(--white);
+    fill: #AFB1B8;
 }
 
 /*-------------------------- ГАЛЕРЕЯ ----------------------------- */
@@ -712,11 +712,7 @@ footer.container {
 }
 
 /*------------------------ Присоединяйтесь --------------------- */
-.join {
-    width: 206px;
-    height: 81px;
-    margin-bottom: 20px;
-}
+.join {}
 
 .join-title {
     font-weight: 700;
@@ -747,20 +743,22 @@ footer.container {
     display: flex;
     width: 44px;
     height: 44px;
-    background-color: rgba (255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     background-size: contain;
     background-position: center;
     border-radius: 50%;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    color: var(--white);
-    gap: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.join-icon {
+    fill: var(--white);
 }
 
 .social-net.link:hover {
-    height: 44px;
-    border-radius: 50%;
     background-color: var(--accent-color);
 }
 
