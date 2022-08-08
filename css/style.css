@@ -87,17 +87,6 @@ header.container {
     align-items: center;
 }
 
-
-
-
-
-
-.link-current-hand {
-    display: flex;
-    align-items: flex-start;
-    gap: 51px;
-}
-
 .logo {
     margin-right: 93px;
     padding-top: 24px;
@@ -149,12 +138,6 @@ header.container {
     margin-left: auto;
 }
 
-.email::before {
-    display: block;
-    content: "";
-
-}
-
 .email {
     display: block;
     width: 135px;
@@ -180,7 +163,6 @@ header.container {
 
 .contact-list.item {
     margin-right: 10px;
-
 }
 
 /*--------------------------------ГЕРОЙ ------------------------- */
@@ -342,8 +324,6 @@ section {
     gap: 30px;
 }
 
-.features-logo {}
-
 .features-icon {
     display: flex;
     align-items: center;
@@ -354,7 +334,6 @@ section {
     background: #F5F4FA;
     border-radius: 4px;
     background-position: center;
-    margin-bottom: 30px;
 }
 
 .features-title {
@@ -520,8 +499,7 @@ section {
     align-items: center;
     justify-content: space-around;
     gap: 30px;
-    width: 206px;
-    height: 44px;
+
     margin-top: 0px;
     margin-bottom: 30px;
     margin-left: auto;
