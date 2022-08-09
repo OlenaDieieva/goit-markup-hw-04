@@ -25,10 +25,12 @@ body {
     background-color: var(--white);
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+*,
+*:before,
+*:after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 ul {
